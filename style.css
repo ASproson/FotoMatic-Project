@@ -1,0 +1,251 @@
+html {
+  font-size: 16px;
+  font-family: 'Roboto-Regular', sans-serif;
+  color: #4a4a4a;
+}
+
+/* Prevents gap at top and sides */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Header */
+
+header {
+  height: 85px;
+  width: 100%;
+  position: fixed;
+  border-bottom: solid 1px #c6c1c1;
+  background-color: white;
+  z-index: 100;
+  display: inline-flex;
+}
+
+header .title{
+  display: flex;
+  align-items: center;
+  margin-left: .8rem;
+}
+
+header .insta_img {
+  width: 1rem;
+  padding-left: .75rem;
+}
+
+header ul {
+  list-style: none;
+}
+
+header a {
+  color: inherit;
+  text-decoration-line: none;
+}
+
+header .links {
+  display: inline-flex;
+  width: 100%;
+  margin-right: 30px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .links li {
+  display: inline-flex;
+  margin-left: 2rem;
+}
+
+.spacer {
+  width: 100%;
+  height: 85px;
+}
+
+/* Sign-up Banner */
+
+main .banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url("images/banner-landingpage.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 43.5rem;
+  color: white;
+}
+
+main .sign_up_box {
+  position: relative;
+  top: 170px;
+  left: 10%;
+  background-color: #9DC20A;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  width: 25.625rem;
+  padding: 0 5rem 2.5rem 5rem;
+}
+
+main .content_center {
+  text-align: center;
+}
+
+main .cursive {
+  font-family: "Damion", cursive;
+  font-weight: lighter;
+  font-size: 2.25rem;
+}
+
+main .striking {
+  font-family: "Rubik", sans-serif;
+  font-weight: lighter;
+  font-size: 3.125rem;
+}
+
+main .email {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+main .button {
+  width: 25.5rem;
+  height: 4rem;
+  border-radius: 4px;
+  background-color: #4A4A4A;
+  margin-top: 1.625rem;
+  font-size: 20px;
+  font-family: 'Roboto-Medium', sans-serif;
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Features Section */
+
+#features_section {
+  display: flex;
+  text-align: center;
+  margin-top: 4rem;
+  justify-content: center;
+}
+
+#features_section .feature {
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+#features_section .image_container img {
+  width: 85%;
+  height: 60%;
+}
+
+#features_section .content h2 {
+  color: #4A4A4A;
+  font-size: 2.25rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+#features_section .content h3 {
+  color: #4A4A4A;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  line-height: 1.2;
+}
+
+/* Filters Section */
+
+#filters_section {
+  display: flex;
+  margin-top: 2.875rem;
+  background-color: #404040;
+  color: white;
+  width: 100%;
+}
+
+#filters_section .center {
+  text-align: center;
+}
+
+#filters_section .filter_content {
+  margin-bottom: 5rem;
+}
+
+#filters_section .filter_content h2 {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-size: 36px;
+  opacity: 100%;
+}
+
+#filters_section .filter_content h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: lighter;
+}
+
+#filters_section .filter_img_container {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 4rem;
+}
+
+#filters_section .filter_img_container img {
+  height: 30%;
+  width: 25%;
+}
+
+/* Quotation Section */
+
+#quotes-section {
+  background-color: #f3f3f3;
+}
+
+#quotes-section .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1.5rem;
+}
+
+#quotes-section .quote {
+  padding-right: 1.875rem;
+  font-family: "Palatino", serif;
+  font-size: 1.875rem;
+  line-height: 1.1;
+  font-style: italic;
+  color: #4a4a4a;
+}
+
+#quotes-section .quote-citation {
+  height: 1.875rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: #9b9b9b;
+  height: 3.4rem;
+  color: white;
+  font-size: .7rem;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer span {
+  margin-left: 1.9rem;
+  margin-right: 1.9rem;
+}
